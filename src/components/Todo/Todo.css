@@ -1,0 +1,76 @@
+.Todo {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.Todo p {
+   margin-right: 20px;
+}
+
+.list {
+      align-items: center;
+      padding: .5rem 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: .5rem
+}
+
+.done {
+   text-decoration: line-through;
+}
+
+.Nodone {
+   text-decoration: none;
+}
+
+.App {
+      padding-top: 5rem;
+      margin: 0 auto;
+      width: 600px;
+   }
+
+   .Todo_textarea{
+      min-width: 10rem;
+      min-height: 3rem;
+   }
+
+   .Todo_button {
+      border-radius: 50px;
+      background-color: white;
+      border: 2px solid red;
+      color: red;
+   }
+
+   .inputStyle {
+      border: 1px solid #ccc;
+      border-radius: 50px;
+   }
+   
+   .wrapper {
+      display: flex;
+      align-items: center;
+      padding: .5rem 12rem;
+
+      margin-bottom: .5rem
+   }
+
+   .btnUpdate {
+      display: flex;
+      margin: 0 auto;
+      border-radius: 50px;
+      background-color: white;
+      border: 2px solid rgb(3, 80, 105);
+      color: rgb(3, 80, 105);
+      
+   }
+
+   .btnAdd {
+      display: flex;
+      margin: 0 auto;
+      border-radius: 50px;
+      background-color: white;
+      border: 2px solid green;
+      color: green;
+   }
